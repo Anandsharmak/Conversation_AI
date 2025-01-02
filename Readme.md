@@ -1,21 +1,22 @@
 uvicorn Main:app --reload
 python Test.py
 
-Cuda
+##Cuda
 Install cuda as it is required for running the code on GPU
 Add Cuda to path
+pip3 install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118
 
-Confluence:
+##Confluence:
 https://myappideas.atlassian.net/wiki/spaces/SD/pages/65933/AI+app+idea
 
 
-Language to use
+##Language to use
 React native for both android and web
 
-First Phase
+##First Phase
 We will focus first on android app development
 
-Breakdown of Tasks:
+##Breakdown of Tasks:
 Create a AI model which can train on the data and then give you a english language response.
 
 Create a bot for giving simple response yes no and sending it.
